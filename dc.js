@@ -12512,6 +12512,7 @@ dc.boxPlot = function (parent, chartGroup) {
 
     // Returns a function to compute the interquartile range.
     function DEFAULT_WHISKERS_IQR (k) {
+        console.log('phong');
         return function (d) {
             var q1 = d.quartiles[0],
                 q3 = d.quartiles[2],
